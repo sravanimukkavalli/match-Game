@@ -1,0 +1,29 @@
+.each-tab-item {
+  margin: 5px;
+}
+.tab-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.tab-item {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+@media (min-width: 768px) {
+  .tab-item {
+    font-size: 26px;
+    font-weight: bold;
+  }
+}
+.separator {
+  width: 100%;
+  border: 1px solid #fec653;
+}
+.active-tab-item {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-size: 20px;
+}

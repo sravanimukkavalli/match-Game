@@ -1,0 +1,42 @@
+.each-thumbnail-item {
+  margin: 2px;
+}
+@media (min-width: 768px) {
+  .each-thumbnail-item {
+    margin: 2px;
+  }
+}
+@media (min-width: 992px) {
+  .each-thumbnail-item {
+    margin: 4px;
+  }
+}
+.button-thumbnail {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.thumbnail-img {
+  width: 60px;
+  height: 50px;
+  background-size: cover;
+}
+@media (min-width: 567px) {
+  .thumbnail-img {
+    width: 110px;
+    height: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .thumbnail-img {
+    height: 130px;
+    width: 120px;
+  }
+}
+@media (min-width: 992px) {
+  .thumbnail-img {
+    width: 160px;
+    height: 160px;
+  }
+}
